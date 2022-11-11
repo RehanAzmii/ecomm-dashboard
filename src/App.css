@@ -6,6 +6,14 @@
   height: 40vmin;
   pointer-events: none;
 }
+.nav_bar_wrap a {
+  padding-left: 50px;
+  color: white;
+  text-decoration: none;
+}
+.nav_bar_wrap a:hover {
+  color: black;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
