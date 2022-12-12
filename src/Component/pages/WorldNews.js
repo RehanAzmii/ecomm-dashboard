@@ -26,8 +26,11 @@ const WorldNews = () => {
         <div className="row">
           {data.map((val) => {
             return (
-              <div className="col-3">
-                <div className="card" style={{ width: "18rem;" }}>
+              <div className="col-3 mt-5">
+                <div
+                  className="card"
+                  style={{ width: "18rem;", height: "20rem" }}
+                >
                   <img
                     src={val.urlToImage}
                     className="card-img-top"
@@ -36,9 +39,11 @@ const WorldNews = () => {
                   <div className="card-body">
                     <h5 className="card-title">{val.title}</h5>
                     <p className="card-text">{val.description}</p>
-                    <a href={val.url} className="btn btn-primary">
-                      World News
-                    </a>
+                    <center>
+                      <a href={val.url} className="btn btn-primary">
+                        World News
+                      </a>
+                    </center>
                   </div>
                 </div>
               </div>

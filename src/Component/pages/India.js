@@ -32,7 +32,9 @@ const India = () => {
     <div>
       <Header />
       <br /> <br />
-      <h1>India News</h1>
+      <center>
+        <h1>India News</h1>
+      </center>
       <br /> <br />
       {/* <button className="btn btn-primary" onClick={getNews}>
         India News
